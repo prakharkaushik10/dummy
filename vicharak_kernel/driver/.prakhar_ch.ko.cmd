@@ -1,0 +1,1 @@
+cmd_/home/prakhar/vicharak_kernel/driver/prakhar_ch.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/prakhar/vicharak_kernel/driver/prakhar_ch.ko /home/prakhar/vicharak_kernel/driver/prakhar_ch.o /home/prakhar/vicharak_kernel/driver/prakhar_ch.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/prakhar/vicharak_kernel/driver/Module.symvers := sed 's/\.ko$$/\.o/' /home/prakhar/vicharak_kernel/driver/modules.order | scripts/mod/modpost -m -a  -o /home/prakhar/vicharak_kernel/driver/Module.symvers -e -i Module.symvers   -T -
